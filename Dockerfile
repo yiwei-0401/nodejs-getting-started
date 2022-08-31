@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:10.24.1-alpine
 
 WORKDIR app_work_dir
 ADD . /app_work_dir
